@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VideoPlayer</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+          integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<header class="header">
+    <div class="content-wrapper">
+        <div class="hamburger-mobile desktop-hide">
+            <div class="hamburger">
+                <div class="hamburger-menu"></div>
+                <div class="hamburger-menu"></div>
+                <div class="hamburger-menu"></div>
+            </div>
+        </div>
+        <div class="pure-u-1-5 header-logo">
+        </div>
+        <div class="pure-u-1-4 mobile-hide">
+        </div>
+        <div class="pure-u-1-2 newsletter-signup-header mobile-hide">
+            <a class="subscribe-header" target="_blank" rel="noopener"
+               href="https://www.constructionprotips.com/newsletters/">
+                <img class="subscribe-logo initial loaded" alt="Subscribe"
+                     src="http://cpt.test.rda.net/wp-content/uploads/sites/9/2018/10/cpt-newsletter-header.png"
+                     data-was-processed="true">
+            </a>
+        </div>
+        <div class="search-mobile desktop-hide">
+            <button class="search-button"></button>
+        </div>
+    </div>
+    <nav class="main-navigation">
+        <div class="pure-menu pure-menu-horizontal">
+            <div class="hamburger-wrapper mobile-hide">
+                <div class="hamburger">
+                    <div class="hamburger-menu"></div>
+                    <div class="hamburger-menu"></div>
+                    <div class="hamburger-menu"></div>
+                </div>
+                <span class="menu-text">MENU</span>
+            </div>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">ABOUT US</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">NEWS</a></li>
+                <li class="pure-menu-item"><a href="#" class="pure-menu-link">ONLINE ACCESS</a></li>
+            </ul>
+            <div class="search-form mobile-hide">
+                <form class="pure-form">
+                    <fieldset>
+                        <input type="text" placeholder="Serach">
+                        <button class="search-button"></button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+
+    <div class="video-container">
+        <video class="video">
+            <source src="https://cdn.jwplayer.com/videos/Pk98b4m8-IFfy1PC6.mp4">
+        </video>
+        <!--<span>Pro Picks Qalo Rings</span>-->
+
+    </div>
+    <div class="video-container">
+        <video class="video">
+            <source src="https://cdn.jwplayer.com/videos/WxyGRXIC-OOHHzDJg.mp4">
+        </video>
+    </div>
+    <div class="video-container">
+        <video class="video">
+            <source src="https://cdn.jwplayer.com/videos/qE06LR9l-OOHHzDJg.mp4">
+        </video>
+
+        <!--<span>CPT PT save a tube duct tape</span>-->
+    </div>
+    <div class="video-container">
+        <video class="video">
+            <source src="https://cdn.jwplayer.com/videos/3a56Lyjj-OOHHzDJg.mp4">
+        </video>
+    </div>
+
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="pure-g">
+            <div class="pure-u-1 desktop-hide newsletter">
+                <h5 class="newsletter-cta-description">Sign-up for posts to your inbox</h5>
+                <img src="https://www.constructionprotips.com/wp-content/themes/tmbi-theme-v3/images/cpt/diyu-header-sticky.png"></img>
+            </div>
+        </div>
+        <!--<div class="pure-g border-bottom-mobile"></div>-->
+        <div class="pure-g">
+            <div class="pure-u-sm-7-12">
+                <div class="footer-left-top border-right">
+                    <div class="pure-g">
+                        <div class="pure-u-lg-5-12">
+                            <div class="ipad-hide">
+                                <a href="" class="footer-logo"></a>
+                                <ul class="footer-logo-social">
+                                    <li><a href="" class="facebook">FB</a></li>
+                                    <li><a href="" class="insta">IN</a></li>
+                                    <li><a href="" class="pintrest">PT</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="pure-u-lg-7-12">
+                            <div class="site-links">
+                                <ul>
+                                    <li><a href="">Jobsite Tips</a></li>
+                                    <li><a href="">Tools & Materials</a></li>
+                                    <li><a href="">Industry News</a></li>
+                                    <li><a href="">Online Classes</a></li>
+                                    <li><a href="">About Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--<div class="pure-g border-bottom-mobile"></div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="pure-u-sm-5-12">
+                <div class="newsletter">
+                    <h4 class="desktop-hide">Sign-up for posts to your inbox</h4>
+                    <h4 class="mobile-hide">Join over 25,000 subscribers!</h4>
+                    <form action="#" method="post">
+                        <input type="text" id="email" placeholder="Email Address"></input>
+                        <button type="submit" id="subscribe">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="pure-g">
+            <div class="pure-u-sm-7-12">
+                <div class="border-right">
+                    <div class="footer-brand-links">
+                        <p>Our Brands</p>
+                        <ul>
+                            <li><a href="">Readers Digest</a></li>
+                            <li><a href="">The Family Handyman</a></li>
+                            <li><a href="">Taste of Home</a></li>
+                        </ul>
+                    </div>
+                    <ul class="global-links">
+                        <li><a href="">Advertise with us</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Your CA Privacy Rights</a></li>
+                        <li><a href="">About Ads</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Terms of Use</a></li>
+                    </ul>
+                    <div class="copyright">2018 Home Service Publications, Inc</div>
+                </div>
+            </div>
+            <div class="pure-u-5-12 newsletter-desktop mobile-hide">
+                <a href=""><img class="center-block"
+                                src="https://www.constructionprotips.com/wp-content/themes/tmbi-theme-v3/images/cpt/diyu-header-sticky.png"></img></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="./js/app.js"></script>
+</body>
+</html>
